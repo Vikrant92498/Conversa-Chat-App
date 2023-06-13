@@ -1,0 +1,42 @@
+const chats=[
+    {
+        isGroupChat:false,
+        users:[
+            {
+                name:"Vikrant",
+                email:"vikrant@gmail.com",
+            },
+            {
+                name:"Ajay",
+                email:"ajay@yahoo.com",
+            }
+        ],
+        _id:"9turjfiwkgds50945i",
+        chatName:"Vikrant",
+    },
+    {
+        isGroupChat:true,
+        users:[
+            {
+                name:"Vikrant",
+                email:"vikrant@gmail.com",
+            },
+            {
+                name:"Ajay",
+                email:"ajay@yahoo.com",
+            },
+            {
+                name:"Raju",
+                email:"raj@yahoo.com",
+            },
+            {
+                name:"Aman",
+                email:"aman@yahoo.com",
+            }
+        ],
+        _id:"4turjfiwkgds50945i",
+        chatName:"Django boys",
+    }
+]
+
+module.exports={chats};
